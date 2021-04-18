@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Estilos Generales */
+/* Christiam Guerra */
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;  /*Esto es para ver el tamaño real de los elementos*/
+} 
+
+
+
+/*Filas: limpiador / Display */
+
+.row::after {
+	clear: both;
+	content: ""; /*Todo el contenido se va a ver afectado*/
+	display: table;
+}
+
+
+/*Imagenes Responsive*/
+
+img {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+
